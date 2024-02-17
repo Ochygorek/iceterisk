@@ -19,7 +19,7 @@ export default function Home() {
             <div className={styles.sectionOneTextContainer}>
               <div className={styles.earlyAccess}>Early acces</div>
               <h1>Iceterisk</h1>
-              <span>A quick and easy way to write down your ideas. A comprehensive note-taking app with a built-in text editor. Store all your notes in an unsafe place.</span>
+              <span>A quick and easy way to write down your ideas. A comprehensive note-taking app with a built-in text editor. Store all your notes on your device.</span>
             </div>
             <div className={styles.sectionOneButtonsContainer}>
               <Button 
