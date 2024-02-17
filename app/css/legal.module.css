@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.legalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 64px;
+
+  width: 600px;
+
+  padding: 64px 0 128px 0;
+}
+
+.iceteriskSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 32px;
+}
+
+.iceteriskSection div {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.iceteriskSection div a {
+  color: #0072F5;
+}
+
+.divider {
+  width: 100%;
+
+  border-top: 1px solid #EAEAEA;
+}

@@ -1,0 +1,120 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: fit-content;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 800px;
+  height: fit-content;
+
+  gap: 64px;
+
+  padding: 64px 0 128px 0;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.donateSection {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: fit-content;
+}
+
+.paymentOptionHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.donateSectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: fit-content;
+
+  padding: 32px 0;
+}
+
+.donateSectionContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 32px;
+
+  width: 200px;
+
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+
+  padding: 16px;
+}
+
+.donateSectionContainer div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #FFFFFF;
+
+  background-color: #0077CE;
+
+  border-radius: 200px;
+
+  padding: 0 16px;
+
+  height: 28px;
+  min-width: 160px;
+}
+
+.donateSectionContainer div a:hover {
+  background-color: #24a4ff;
+}
+
+.link {
+  color: #0077CE;
+}
+
+.divider {
+  width: 100%;
+
+  border-top: 1px solid #EAEAEA;
+}
+
+.disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  background-color: #FF5353;
+  color: #FFFFFF;
+
+  height: 32px;
+}

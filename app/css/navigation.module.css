@@ -1,0 +1,51 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  position: sticky;
+
+  top: 0;
+  left: 0;
+
+  height: 64px;
+  width: 100%;
+
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+
+  border-bottom: 1px solid #CCCCCC;
+
+  padding: 0px 32px 0px 32px;
+
+  z-index: 9999999;
+}
+
+.navigationLeftContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 32px;
+}
+
+.leftContainerLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 16px;
+}
+
+.leftContainerLinks a:hover {
+  text-decoration: underline;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row-reverse;
+
+  gap: 16px;
+
+  margin-left: auto;
+}

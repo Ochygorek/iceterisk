@@ -2,32 +2,107 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+html {
+  display: flex;
+  flex-direction: column;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  height: 100vh;
+  
+  transition: all ease 0.15s;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 100%;
+
+  font-size: 12px;
+  color: #1E1E1E;
+
+  background: #FFFFFF; /* #DEF1FF */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: auto;
+  width: auto;
+
+  padding: 4px 32px;
+
+  width: fit-content;
+  height: fit-content;
+
+  transition: all ease 0.15s;
+}
+
+.button:hover {
+  filter: invert(10%);
+}
+
+.filled {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  border: 1px solid #1E1E1E;
+  border-radius: 20px;
+}
+
+.outlined {
+  background-color: #FFFFFF;
+  color: #1E1E1E;
+  border: 1px solid #1E1E1E;
+  border-radius: 20px;
+}
+
+.higlight {
+  background-color: #0077CE;
+  color: #FFFFFF;
+  border: 1px solid #0077CE;
+
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.ghost {
+  background-color: #FFFFFF;
+  color: #1E1E1E;
+
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.large {
+  font-size: 16px;
+
+  min-width: 220px;
+  height: 40px;
+
+  gap: 32px;
+
+  /* 180 : 36 */
 }

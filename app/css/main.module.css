@@ -1,0 +1,203 @@
+.sectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  gap: 5%;
+
+  padding: 0px 16px 0px 16px;
+
+  height: 600px;
+  background: linear-gradient(0deg, #FCDEFF 0%, #DEF1FF 100%);
+}
+
+.sectionOne img {
+  position: absolute;
+}
+
+.sectionOneInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 32px;
+
+  z-index: 1;
+}
+
+.sectionOneTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.earlyAccess {
+  position: absolute;
+  top: 4%;
+  left: 66%;
+  
+  padding: 4px 16px 4px 16px;
+
+  background-color: #0077CE;
+  color: #FFFFFF;
+  
+  border-radius: 20px;
+
+  z-index: 2;
+
+  rotate: 30deg;
+}
+
+.sectionOneTextContainer h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.sectionOneTextContainer span {
+  text-align: center;
+
+  max-width: 540px;
+}
+
+.sectionOneButtonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 32px;
+
+  transition: all ease 0.15s;
+}
+
+.sectionOneButtonsContainer a:hover {
+  filter: invert(10%);
+}
+
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20%;
+
+  height: fit-content;
+
+  background: #FFFFFF;
+}
+
+.sectionTwoFeaturesNotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10%;
+
+  height: 600px;
+  width: 100%;
+}
+
+.sectionTwoFeaturesEdit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10%;
+
+  height: 600px;
+  width: 100%;
+
+  background-color: #EAEAEA;
+}
+
+.sectionTwoFeaturesSave {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10%;
+
+  height: 600px;
+  width: 100%;
+}
+
+.sectionTwoFeaturesTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 8px;
+
+  width: 400px;
+}
+
+.finalDownloadButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 32px;
+
+  width: 100%;
+  height: fit-content;
+
+  padding: 32px 16px 128px 16px;
+
+  transition: all ease 0.15s;
+}
+
+.finalDownloadButton a:hover {
+  filter: invert(10%);
+}
+
+.suppoerSection {
+  background: linear-gradient(0deg, #DEF1FF 0%, #FCDEFF 100%);
+  color: #1E1E1E;
+}
+
+.suppoerSectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10%;
+
+  height: 600px;
+  width: 100%;
+}
+
+.suppoerSectionTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 8px;
+
+  width: 400px;
+}
+
+.donabeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+
+  z-index: 1;
+
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.donateImage {
+  position: relative;
+}
