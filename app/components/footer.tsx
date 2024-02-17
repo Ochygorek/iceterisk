@@ -17,7 +17,7 @@ function footer() {
             ></Image>
           </Link>
           <Button
-            href={'#'}
+            href={'/download'}
             content={'Download'}
             variant={'ghost'}
           ></Button>

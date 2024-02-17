@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             <div className={styles.sectionOneButtonsContainer}>
               <Button 
-                href={'#'}
+                href={'/download'}
                 content={'Download'}
                 variant={'filled'}
                 size={'large'}
@@ -110,7 +110,7 @@ export default function Home() {
           <div className={styles.finalDownloadButton}>
             <h3>So, let&apos;s start by clicking the button blow...</h3>
             <Button 
-              href={'#'}
+              href={'/download'}
               content={'Download'}
               variant={'filled'}
               size={'large'}

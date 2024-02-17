@@ -128,3 +128,21 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.currentlyDisabled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 4px 32px;
+
+  background-color: #FF5353;
+
+  color: #FFFFFF;
+  font-size: 16px;
+
+  min-width: 220px;
+  height: 40px;
+
+  border-radius: 10px;
+}

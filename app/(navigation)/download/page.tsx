@@ -18,7 +18,8 @@ function page() {
               <h2>Iceterisk desktop</h2>
               <span>Have your notes avalible on your desktop at any given time. Download Iceterisk desktop for quick and easy acces.</span>
             </div>
-            <Link href='#' download={''} className={styles.downloadButton}>Download</Link>
+            {/* <Link href='#' download={''} className={styles.downloadButton}>Download</Link> */}
+            <span className={styles.currentlyDisabled}> Currently disabled</span>
           </div>
         </section>
         <section className={styles.downloadSectionSystemRequirements}>
