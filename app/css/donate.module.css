@@ -111,6 +111,9 @@
   align-items: center;
   justify-content: center;
 
+  position: sticky;
+  top: 64px;
+
   width: 100%;
 
   background-color: #FF5353;
