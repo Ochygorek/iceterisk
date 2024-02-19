@@ -201,3 +201,47 @@
 .donateImage {
   position: relative;
 }
+
+/* 930px */
+
+@media (max-width: 930px) {
+  .sectionTwoFeaturesNotes {
+    flex-direction: column;
+
+    gap: 32px;
+
+    height: auto;
+
+    padding: 32px 0;
+  }
+
+  .sectionTwoFeaturesEdit {
+    flex-direction: column;
+    
+    gap: 32px;
+
+    height: auto;
+
+    padding: 32px 0;
+  }
+
+  .sectionTwoFeaturesSave {
+    flex-direction: column;
+    
+    gap: 32px;
+
+    height: auto;
+
+    padding: 32px 0;
+  }
+
+  .suppoerSectionContainer {
+    flex-direction: column;
+
+    gap: 32px;
+
+    height: auto;
+
+    padding: 32px 0;
+  }
+}
