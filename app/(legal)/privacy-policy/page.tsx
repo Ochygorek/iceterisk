@@ -16,7 +16,7 @@ function page() {
         <section className={styles.iceteriskSection}>
           <div>
             <h2>Iceterisk</h2>
-            <span><b>Last updated: February 15, 2024</b></span>
+            <span><b>Last updated: February 20, 2024</b></span>
             <span>This Privacy Policy outlines how Iceterisk collects, uses, and protects non-personal information from users visiting the website. It clarifies data collection practices, the optional donation process, and the use of third-party services. Users are encouraged to review this policy to understand how their information is handled and to make informed decisions while engaging with the Iceterisk website.</span>
             <span>On this page, &quot;Iceterisk&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot; refers to the Iceterisk entity.</span>
           <span>&quot;Personal Data&quot; refers to any information associated with an identified or identifiable individual.</span>
@@ -35,8 +35,8 @@ function page() {
           </div>
           <div>
             <h3>Third-Party Services</h3>
-            <span>Our website utilizes third-party services to enhance functionality and better understand user interactions. Specifically, we use <Link href='https://analytics.google.com/' target='_blank'>Google Analytics</Link> for analytics purposes and <Link href='https://stripe.com/' target='_blank'>Stripe</Link> for processing optional donations. These services may collect non-personal information as outlined in their respective privacy policies. We encourage you to review the privacy policies of these third-party services for detailed information on how they handle data:</span>
-            <span><Link href='https://policies.google.com/privacy' target='_blank'>Google Analytics Privacy Policy</Link></span>
+            <span>Our website utilizes third-party services to enhance functionality and better understand user interactions. Specifically, we use <Link href='https://vercel.com/analytics' target='_blank'>Vercel Analytics</Link> for analytics purposes and <Link href='https://stripe.com/' target='_blank'>Stripe</Link> for processing optional donations. These services may collect non-personal information as outlined in their respective privacy policies. We encourage you to review the privacy policies of these third-party services for detailed information on how they handle data:</span>
+            <span><Link href='https://vercel.com/docs/analytics/privacy-policy' target='_blank'>Vercel Analytics Privacy Policy</Link></span>
             <span><Link href='https://stripe.com/privacy' target='_blank'>Stripe Privacy Policy</Link></span>
             <span>Please note that while we strive to work with reputable third-party providers, we are not responsible for their privacy practices.</span>
           </div>
