@@ -49,3 +49,97 @@
 
   margin-left: auto;
 }
+
+.phoneContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 32px;
+
+  position: relative;
+
+  width: 100%;
+  height: 64px;
+}
+
+.linksHolder {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 16px;
+
+  position: absolute;
+  top: 64px;
+  right: 0;
+
+  width: 100%;
+  height: fit-content;
+
+  padding: 16px 32px;
+
+  background-color: #FFFFFF;
+}
+
+.linksHolder a:hover {
+  text-decoration: underline;
+}
+
+.vebButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 28px;
+
+  background-color: #FFFFFF;
+
+  border: 1px solid #1E1E1E;
+  border-radius: 20px;
+}
+
+.vebButton:hover {
+  text-decoration: none;
+
+  background-color: #EAEAEA;
+}
+
+.donateButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 28px;
+
+  background-color: #0077CE;
+  color: #FFFFFF;
+  border: 1px solid #0077CE;
+
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.donateButton:hover {
+  text-decoration: none;
+
+  background-color: #24a4ff;
+  border: 1px solid #24a4ff;
+}
+
+@media screen and (min-width: 800px) {
+  .phoneContainer {
+    display: none;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .navigationLeftContainer, .buttonContainer {
+    display: none;
+    pointer-events: none;
+  }
+}

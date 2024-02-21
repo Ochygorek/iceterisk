@@ -114,3 +114,39 @@
 
   padding: 16px;
 }
+
+@media (max-width: 700px) {
+  .article, .homeArticle {
+    width: 400px;
+  }
+
+  .article h2, .homeArticle h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .article, .homeArticle {
+    width: 220px;
+  }
+}
+
+@media (max-width: 350px) {
+  .article, .homeArticle {
+    width: 180px;
+  }
+  
+  .article h2, .homeArticle h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 300px) {
+  .article, .homeArticle {
+    width: 160px;
+  }
+  
+  .article h2, .homeArticle h2 {
+    font-size: 20px;
+  }
+}

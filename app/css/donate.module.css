@@ -121,3 +121,25 @@
 
   height: 32px;
 }
+
+@media (max-width: 800px) {
+  .container {
+    width: 500px;
+  }
+
+  .donateSectionContainer {
+    flex-direction: column;
+
+    gap: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+
+  .container h2 {
+    font-size: 40px;
+  }
+}

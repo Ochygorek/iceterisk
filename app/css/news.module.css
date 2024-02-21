@@ -50,3 +50,15 @@
 .newsSection a:hover {
   background-color: #EAEAEA;
 }
+
+@media (max-width: 700px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 200px;
+  }
+}

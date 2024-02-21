@@ -7,6 +7,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 function navigation() {
+  const [active, setActive] = useState<boolean>(false)
+
   return (
     <nav className={styles.navigation}>
       <div className={styles.navigationLeftContainer}>
@@ -35,6 +37,28 @@ function navigation() {
           content={'Support iceterisk'}
           variant={'higlight'}
         />
+      </div>
+
+      <div className={styles.phoneContainer}>
+        <Link href='/' onClick={() => (setActive(false))}>
+          <Image 
+            src='/logo/Group 37.svg'
+            alt='logo for the navigation bar'
+            height={48}
+            width={200}
+          ></Image>
+        </Link>
+        <button onClick={() => setActive(!active)}>{active ? <Image src='/closemenu.svg' alt='Close phone nav menu image' width={16} height={16}/> : <Image src='/menu.svg' alt='Close phone nav menu image' width={16} height={16}/>}</button>
+        {active &&         
+          <div className={styles.linksHolder}>
+            <Link onClick={() => (setActive(!active))} href={'/download'}>Download</Link>
+            <Link onClick={() => (setActive(!active))} href={'/news'}>News</Link>
+            <Link onClick={() => (setActive(!active))} href={'/docs'}>Docs</Link>
+
+            <Link onClick={() => (setActive(!active))} href='https://app.iceterisk.com' className={styles.vebButton}>Web version</Link>
+            <Link onClick={() => (setActive(!active))} href='/donate' className={styles.donateButton}>Support iceterisk</Link>
+          </div>
+        }
       </div>
     </nav>
   )

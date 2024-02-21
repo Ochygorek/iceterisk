@@ -146,3 +146,44 @@
 
   border-radius: 10px;
 }
+
+@media (max-width: 700px) {
+  .component {
+    width: 400px;
+  }
+
+  .productInfo {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .component {
+    flex-direction: column;
+
+    gap: 16px;
+
+    width: 200px;
+    height: fit-content;
+  }
+
+  .systemRequirementsHeader {
+    font-size: 40px;
+
+    margin-bottom: 16px;
+  }
+
+  .downloadSectionSystemRequirements {
+    height: fit-content;
+  }
+
+  .productInfo {
+    width: 240px;
+  }
+
+  .productInfo h2 {
+    font-size: 40px;
+
+    margin-bottom: 16px;
+  }
+}

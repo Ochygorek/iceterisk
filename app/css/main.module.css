@@ -215,14 +215,22 @@
     padding: 32px 0;
   }
 
+  .sectionTwoFeaturesNotes h2 {
+    font-size: 40px;
+  }
+
   .sectionTwoFeaturesEdit {
-    flex-direction: column;
+    flex-direction: column-reverse;
     
     gap: 32px;
 
     height: auto;
 
     padding: 32px 0;
+  }
+
+  .sectionTwoFeaturesEdit h2 {
+    font-size: 40px;
   }
 
   .sectionTwoFeaturesSave {
@@ -235,6 +243,10 @@
     padding: 32px 0;
   }
 
+  .sectionTwoFeaturesSave h2 {
+    font-size: 40px;
+  }
+
   .suppoerSectionContainer {
     flex-direction: column;
 
@@ -243,5 +255,33 @@
     height: auto;
 
     padding: 32px 0;
+  }
+
+  .suppoerSectionContainer h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sectionOneButtonsContainer {
+    flex-direction: column;
+
+    gap: 16px;
+  }
+
+  .sectionOneInfoContainer {
+    margin-bottom: 20%;
+  }
+
+  .sectionTwoFeaturesTextContainer {
+    padding: 0 16px;
+
+    width: 240px;
+  }
+
+  .suppoerSectionTextContainer {
+    padding: 0 16px;
+
+    width: 240px;
   }
 }

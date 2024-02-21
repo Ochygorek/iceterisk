@@ -46,10 +46,24 @@
   gap: 16px;
 }
 
-
-
 .divider {
   width: 100%;
 
   border-top: 1px solid #EAEAEA;
+}
+
+@media (max-width: 700px) {
+  .newsSectionContainer {
+    width: 400px;
+  }
+
+  .newsSectionContainer h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .newsSectionContainer {
+    width: 200px;
+  }
 }

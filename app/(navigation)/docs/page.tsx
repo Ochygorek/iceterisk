@@ -6,7 +6,7 @@ function page() {
   return (
     <div className={styles.docsHome}>
       <article className={styles.homeArticle}>
-        <h1>Introduction</h1>
+        <h2>Introduction</h2>
         <span>Notes taking app.</span>
         <div className={styles.divider}></div>
         <h2>What is Iceterisk?</h2>
