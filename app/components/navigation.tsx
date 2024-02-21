@@ -1,13 +1,13 @@
 'use client'
 
-import Image from 'next/image'
-import Button from './button'
-import styles from '@/app/css/navigation.module.css'
-import Link from 'next/link'
-import React, { useState } from 'react'
+import Image from 'next/image';
+import Button from './button';
+import styles from '@/app/css/navigation.module.css';
+import Link from 'next/link';
+import React, { useState } from 'react';
 
-function navigation() {
-  const [active, setActive] = useState(false)
+function Navigation() {
+  const [active, setActive] = useState(false);
 
   return (
     <nav className={styles.navigation}>
@@ -64,4 +64,4 @@ function navigation() {
   )
 }
 
-export default navigation
+export default Navigation
