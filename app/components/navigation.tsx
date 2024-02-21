@@ -4,10 +4,10 @@ import Image from 'next/image'
 import Button from './button'
 import styles from '@/app/css/navigation.module.css'
 import Link from 'next/link'
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 function navigation() {
-  const [active, setActive] = useState<boolean>(false)
+  const [active, setActive] = useState(false)
 
   return (
     <nav className={styles.navigation}>
