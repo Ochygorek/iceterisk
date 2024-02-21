@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     default: 'Iceterisk'
   },
   description: "Iceterisk i a notes taking app that allows you to make notes, edit the thext and save them in a database storage",
-  icons: 'favicon.ico',
   openGraph: {
     title: {
       template: 'Iceterisk | %s',
