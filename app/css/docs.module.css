@@ -121,7 +121,11 @@
   }
 
   .article h2, .homeArticle h2 {
-    font-size: 32px;
+    font-size: 24px;
+  }
+
+  .docsPath {
+    width: 0;
   }
 }
 
@@ -137,7 +141,7 @@
   }
   
   .article h2, .homeArticle h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 

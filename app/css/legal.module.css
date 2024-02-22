@@ -45,3 +45,25 @@
 
   border-top: 1px solid #EAEAEA;
 }
+
+@media (max-width: 700px) {
+  .legalContainer {
+    width: 400px;
+  }
+
+  .legalContainer h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .legalContainer {
+    width: 220px;
+  }
+}
+
+@media (max-width: 300px) {
+  .legalContainer {
+    width: 180px;
+  }
+}
