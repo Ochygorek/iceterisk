@@ -81,11 +81,18 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className={styles.sectionNoRegistration} id="no-registration">
+          <span className={styles.predicament}>Also...</span>
+          <div className={styles.noRegistrationContentContainer}>
+            <h2>No registration</h2>
+            <span>You can use Iceterisk without the need to register any account. How cool is that!</span>
+          </div>
+        </section>
         <section className={styles.suppoerSection}>
           <div className={styles.suppoerSectionContainer}>
             <div className={styles.suppoerSectionTextContainer}>
               <h2>Support Iceterisk</h2>
-              <span>Support us with a financial donation. We appreciate every type of support. Thank you for using Iceterisk!</span>
+              <span>Support us with a financial donation. We appreciate every type of support. Thank you for using Iceterisk.</span>
             </div>
             <div className={styles.donateImage}>
               <div className={styles.donabeButton}>

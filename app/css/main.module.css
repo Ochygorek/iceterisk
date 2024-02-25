@@ -111,7 +111,7 @@
   height: 600px;
   width: 100%;
 
-  background-color: #EAEAEA;
+  background-color: #FAFAFA;
 }
 
 .sectionTwoFeaturesSave {
@@ -202,6 +202,33 @@
   position: relative;
 }
 
+.sectionNoRegistration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 10%;
+
+  height: 600px;
+  width: 100%;
+
+  background-color: #FAFAFA;
+}
+
+.predicament {
+  font-size: 20px;
+}
+
+.noRegistrationContentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
 /* 930px */
 
 @media (max-width: 930px) {
@@ -260,6 +287,24 @@
   .suppoerSectionContainer h2 {
     font-size: 40px;
   }
+
+  .sectionNoRegistration {
+    flex-direction: column;
+
+    gap: 16px;
+
+    height: auto;
+
+    padding: 32px 0;
+  }
+
+  .sectionNoRegistration h2 {
+    font-size: 40px;
+  }
+
+  .sectionNoRegistration span {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -280,6 +325,12 @@
   }
 
   .suppoerSectionTextContainer {
+    padding: 0 16px;
+
+    width: 240px;
+  }
+
+  .noRegistrationContentContainer {
     padding: 0 16px;
 
     width: 240px;
