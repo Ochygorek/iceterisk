@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 function page() {
   return (
     <main className={styles.main}>
-      <span className={styles.disclaimer}>Disclaimer: This page is unedr developement, there are no transactions avalible at the momen.</span>
+      <span className={styles.disclaimer}>Disclaimer: This page is under development, there are no transactions avalible at the moment.</span>
       <div className={styles.container}>
         <div className={styles.headingContainer}>
           <h2>Support Iceterisk</h2>
