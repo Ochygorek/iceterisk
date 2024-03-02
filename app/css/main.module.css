@@ -315,7 +315,9 @@
   }
 
   .sectionOneInfoContainer {
-    margin-bottom: 20%;
+    margin-bottom: 25%;
+
+    gap: 40px;
   }
 
   .sectionTwoFeaturesTextContainer {
