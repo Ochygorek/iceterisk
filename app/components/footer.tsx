@@ -31,7 +31,7 @@ function footer() {
               <li>
                 <Link href='https://discord.com/' target='_blank'>
                   <Image
-                    src='discord.svg'
+                    src='/discord.svg'
                     alt='Discord social media icon.'
                     width={24}
                     height={24}
@@ -41,7 +41,7 @@ function footer() {
               <li>
                 <Link href='https://www.youtube.com/' target='_blank'>
                 <Image
-                    src='youtube.svg'
+                    src='/youtube.svg'
                     alt='Discord social media icon.'
                     width={24}
                     height={24}
@@ -51,7 +51,7 @@ function footer() {
               <li>
                 <Link href='#' target='_blank'>
                 <Image
-                    src='tiktok.svg'
+                    src='/tiktok.svg'
                     alt='Discord social media icon.'
                     width={24}
                     height={24}
