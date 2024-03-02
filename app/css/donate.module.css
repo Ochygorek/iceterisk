@@ -114,12 +114,13 @@
   position: sticky;
   top: 64px;
 
+  padding: 4px 16px;
+
+  min-height: 32px;
   width: 100%;
 
   background-color: #FF5353;
   color: #FFFFFF;
-
-  height: 32px;
 }
 
 @media (max-width: 800px) {

@@ -66,7 +66,7 @@
 .linksHolder {
   display: flex;
   align-items: start;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
 
   gap: 16px;
@@ -74,6 +74,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  left: 0;
 
   width: 100%;
   height: fit-content;
@@ -85,6 +86,14 @@
 
 .linksHolder a:hover {
   text-decoration: underline;
+}
+
+.divider {
+  width: 100%;
+
+  border-top: 1px solid #EAEAEA;
+
+  margin: 8px 0;
 }
 
 .vebButton {

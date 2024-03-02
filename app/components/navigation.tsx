@@ -49,17 +49,17 @@ function Navigation() {
           ></Image>
         </Link>
         <button onClick={() => setActive(!active)}>{active ? <Image src='/closemenu.svg' alt='Close phone nav menu image' width={16} height={16}/> : <Image src='/menu.svg' alt='Close phone nav menu image' width={16} height={16}/>}</button>
-        {active &&         
+      </div>
+      {active &&         
           <div className={styles.linksHolder}>
             <Link onClick={() => (setActive(!active))} href={'/download'}>Download</Link>
             <Link onClick={() => (setActive(!active))} href={'/news'}>News</Link>
             <Link onClick={() => (setActive(!active))} href={'/docs'}>Docs</Link>
-
+            <div className={styles.divider}></div>
             <Link onClick={() => (setActive(!active))} href='https://app.iceterisk.com' className={styles.vebButton}>Web version</Link>
             <Link onClick={() => (setActive(!active))} href='/donate' className={styles.donateButton}>Support iceterisk</Link>
           </div>
         }
-      </div>
     </nav>
   )
 }
