@@ -13,7 +13,7 @@ function page() {
       <span className={styles.disclaimer}>Disclaimer: This page is under development, there are no transactions avalible at the moment.</span>
       <div className={styles.container}>
         <div className={styles.headingContainer}>
-          <h2>Support Iceterisk</h2>
+          <h1>Support Iceterisk</h1>
           <span>Your support is greatly appreciated!</span>
         </div>
         <div className={styles.divider}></div>
@@ -41,7 +41,7 @@ function page() {
         <section className={styles.donateSection}>
           <div className={styles.paymentOptionHeading}>
             <h2>Monthly recurring</h2>
-            <span>This donation is a monthly reccuring subscription. If you decide to cancel your subscription, check out this <Link href='' className={styles.link}>link</Link>.</span>
+            {/* <span>This donation is a monthly reccuring subscription. If you decide to cancel your subscription, click <Link href='' className={styles.link}>here</Link>.</span> */}
           </div>
           <div className={styles.donateSectionContainer}>
             {/* <div>

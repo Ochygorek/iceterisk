@@ -15,7 +15,7 @@ function page() {
         <section className={styles.downloadSectionHero}>
           <div className={styles.downloadSectionHeroContainer}>
             <div className={styles.productInfo}>
-              <h2>Iceterisk desktop</h2>
+              <h1>Iceterisk desktop</h1>
               <span>Have your notes avalible on your desktop at any given time. Download Iceterisk desktop for quick and easy acces.</span>
             </div>
             {/* <Link href='#' download={''} className={styles.downloadButton}>Download</Link> */}

@@ -75,6 +75,12 @@
   width: 100%;
 }
 
+.productInfo {
+  text-align: center;
+
+  width: 100%;
+}
+
 .productInfo span {
   margin-bottom: 128px;
 }
@@ -105,6 +111,10 @@
 }
 
 .systemRequirementsHeader {
+  text-align: center;
+
+  width: 100%;
+
   margin-bottom: 64px;
 }
 
@@ -181,7 +191,7 @@
     width: 240px;
   }
 
-  .productInfo h2 {
+  .productInfo h1 {
     font-size: 40px;
 
     margin-bottom: 16px;

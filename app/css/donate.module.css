@@ -48,6 +48,10 @@
   width: 100%;
 }
 
+.paymentOptionHeading h2{
+  margin-bottom: 16px;
+}
+
 .donateSectionContainer {
   display: flex;
   align-items: center;
@@ -133,11 +137,35 @@
 
     gap: 16px;
   }
+
+  .donateSectionContainer div {
+    width: 90%;
+  }
+
+  .donateSectionContainer div a {
+    width: 80%;
+  }
+
+  .container h1 {
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .container h2 {
+    width: 100%;
+
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
   .container {
-    width: 300px;
+    width: 280px;
+  }
+
+  .container h1 {
+    font-size: 40px;
   }
 
   .container h2 {
