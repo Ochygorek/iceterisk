@@ -19,7 +19,7 @@ function page() {
           <b>Shortcut:</b> <kbd>Ctrl</kbd> + <kbd>I</kbd>
         </span>
         <h3>Underline</h3>
-        <span>Underline, in the context of technology and computing, usually refers to a text style that places a horizontal line beneath the text. It's often used for emphasis or to indicate a clickable hyperlink on web pages.</span>
+        <span>Underline, in the context of technology and computing, usually refers to a text style that places a horizontal line beneath the text. It&apos;s often used for emphasis or to indicate a clickable hyperlink on web pages.</span>
         <span>
           <b>Shortcut:</b> <kbd>Ctrl</kbd> + <kbd>U</kbd>
         </span>
@@ -31,7 +31,7 @@ function page() {
           <b>Shortcut:</b> <kbd>Ctrl</kbd> + <kbd>Z</kbd>
         </span>
         <h3>Redo</h3>
-        <span>Redo command serves as a valuable counterpart to Undo, providing a means to reapply actions that were previously undone. If you find that the last action you reversed wasn't a mistake after all or if you simply need to repeat a series of steps, the Redo button is there for that.</span>
+        <span>Redo command serves as a valuable counterpart to Undo, providing a means to reapply actions that were previously undone. If you find that the last action you reversed wasn&apos;t a mistake after all or if you simply need to repeat a series of steps, the Redo button is there for that.</span>
         <span>
           <b>Shortcut:</b> <kbd>Ctrl</kbd> + <kbd>Y</kbd>
         </span>
