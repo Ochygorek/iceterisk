@@ -131,6 +131,10 @@
 }
 
 @media (max-width: 700px) {
+  .docsNavigation, .docsPath {
+    width: fit-content;
+  }
+  
   .article, .homeArticle {
     width: 400px;
   }
