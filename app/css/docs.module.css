@@ -12,8 +12,15 @@
   gap: 8px;
 }
 
+.article {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
 .docsRoot h1 {
-  font-size: 48px;;
+  font-size: 48px;
 }
 
 .docsRoot h2 {
@@ -94,9 +101,17 @@
   color: #0072F5;
 }
 
+.docsRoot article h3 {
+  margin-top: 8px;
+}
+
+.docsRoot article kbd {
+  margin: 8px 0 24px 0;
+}
+
 .last {
   width: 100%;
-  margin-bottom: 128px;
+  margin-bottom: 400px; /* 128px */
 }
 
 .article, .homeArticle {
