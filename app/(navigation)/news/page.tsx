@@ -17,6 +17,20 @@ function page() {
           <span>This page serves to provide the latest information about Iceterisk Iceterisk app (Iceterisk desktop included)</span>
         </div>
         <section className={styles.newsSection}>
+          <Link href='/news/1.0.1'>
+            <div>
+              <h3>Settings page</h3>
+              <span>1.0.1</span>
+            </div>
+            <Image
+              src='/openinanotherwindow.svg'
+              alt='Open in another window image'
+              width={12}
+              height={12}
+            />
+          </Link>
+        </section>
+        <section className={styles.newsSection}>
           <Link href='/news/1.0.0'>
             <div>
               <h3>Release: Early access</h3>
