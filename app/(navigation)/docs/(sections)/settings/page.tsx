@@ -3,7 +3,7 @@ import styles from '@/app/css/docs.module.css'
 
 function page() {
   return (
-<article className={styles.article}>
+    <article className={styles.article}>
         <h2>Settings</h2>
         <span>In-app settings allow you to change, update or reset your notes, theme and overall experience.</span>
         <span>

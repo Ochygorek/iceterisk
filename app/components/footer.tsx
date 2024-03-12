@@ -90,8 +90,11 @@ function footer() {
             </ul>
           </div>
           <div className={styles.footerInfoContainer}>
-            <h2>Support us</h2>
+            <h2>About us</h2>
             <ul>
+              <li>
+                <Link href={'/about'}>About</Link>
+              </li>
               <li>
                 <Link href={'/donate'}>Support Iceterisk</Link>
               </li>
