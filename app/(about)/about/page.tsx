@@ -8,7 +8,7 @@ function page() {
       <div className={styles.main}>
         <section>
           <h2>About</h2>
-          <article>Iceterisk, created by a student at <Link href='https://gymroznov.cz/' target='_blank'>Gymnazim Roznov pod Radhostem</Link> as part of a seminar project, stands as a practical yet convenient note-taking app. This project took shape within the academic context, evolving into separate brand.</article>
+          <article>Iceterisk, created by a student at <Link href='https://gymroznov.cz/' target='_blank'>Gymnazium Roznov pod Radhostem</Link> as part of a seminar project, stands as a practical yet convenient note-taking app. This project took shape within the academic context, evolving into separate brand.</article>
           <article>Rooted in a commitment to simplicity and functionality, Iceterisk aims to redefine the note-taking experience. With a focus on innovation and user-centric design, our journey began in the academic realm to provide individuals and teams with a powerful yet straightforward tool for capturing ideas and fostering collaboration. Join us as we continue to evolve and shape the future of note-taking.</article>
         </section>
         <div className={styles.divider}></div>
