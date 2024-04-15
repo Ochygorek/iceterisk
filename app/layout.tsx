@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   //   //   'max-image-preview': 'large',
   //   //   'max-snippet': -1,
   //   // },
-  },
+  // },
   keywords: ['Iceterisk', 'Note', 'Notes', 'Take notes', 'Taking notes', 'Iceterisk note', 'Iceterisk notes'],
   applicationName: 'Iceterisk.com', // ?
   generator: 'Iceterisk.com', // ?
