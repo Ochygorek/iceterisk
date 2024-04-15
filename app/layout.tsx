@@ -31,18 +31,18 @@ export const metadata: Metadata = {
     ],
     type: 'website',
   },
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
+  // robots: {
+  //   index: false,
+  //   follow: true,
+  //   nocache: true,
+  //   // googleBot: {
+  //   //   index: true,
+  //   //   follow: false,
+  //   //   noimageindex: true,
+  //   //   'max-video-preview': -1,
+  //   //   'max-image-preview': 'large',
+  //   //   'max-snippet': -1,
+  //   // },
   },
   keywords: ['Iceterisk', 'Note', 'Notes', 'Take notes', 'Taking notes', 'Iceterisk note', 'Iceterisk notes'],
   applicationName: 'Iceterisk.com', // ?
