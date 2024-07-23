@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: 'Iceterisk',
     images: [
       {
-        url: '/link.png',
+        url: '/link.jpg',
         width: 1200,
         height: 630
       }
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: 'Iceterisk',
     description: 'Notes taking app',
     creator: '@iceterisk',
-    images: ['link.png'], // Must be an absolute URL
+    images: ['link.jpg'], // Must be an absolute URL
   },
   verification: {
     google: 'google',
