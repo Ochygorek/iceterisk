@@ -13,18 +13,18 @@ export const metadata: Metadata = {
     template: 'Iceterisk | %s',
     default: 'Iceterisk'
   },
-  description: "Iceterisk is a notes taking app that allows you to make notes, edit the thext and save them in a database storage",
+  description: "Notes taking app that allows you to make notes, edit the thext and save them in a database storage",
   openGraph: {
     title: {
       template: 'Iceterisk | %s',
       default: 'Iceterisk'
     },
     url: 'https://iceterisk.com',
-    description: "Iceterisk is a notes taking app that allows you to make notes, edit the thext and save them in a database storage",
+    description: "Notes taking app that allows you to make notes, edit the thext and save them in a database storage",
     siteName: 'Iceterisk',
     images: [
       {
-        url: '/link.svg',
+        url: '/link.png',
         width: 1200,
         height: 630
       }
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: 'Iceterisk',
     description: 'Notes taking app',
     creator: '@iceterisk',
-    images: ['link.svg'], // Must be an absolute URL
+    images: ['link.png'], // Must be an absolute URL
   },
   verification: {
     google: 'google',
