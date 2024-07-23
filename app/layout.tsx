@@ -20,11 +20,11 @@ export const metadata: Metadata = {
       default: 'Iceterisk'
     },
     url: 'https://iceterisk.com',
-    description: "Iceterisk i a notes taking app that allows you to make notes, edit the thext and save them in a database storage",
+    description: "Iceterisk is a notes taking app that allows you to make notes, edit the thext and save them in a database storage",
     siteName: 'Iceterisk',
     images: [
       {
-        url: 'https://iceterisk.com/link.svg',
+        url: '/link.svg',
         width: 1200,
         height: 630
       }
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: 'Iceterisk',
     description: 'Notes taking app',
     creator: '@iceterisk',
-    images: ['/link.svg'], // Must be an absolute URL
+    images: ['link.svg'], // Must be an absolute URL
   },
   verification: {
     google: 'google',
