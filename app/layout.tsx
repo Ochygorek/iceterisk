@@ -13,14 +13,14 @@ export const metadata: Metadata = {
     template: 'Iceterisk | %s',
     default: 'Iceterisk'
   },
-  description: "Notes taking app that allows you to make notes, edit the thext and save them in a database storage",
+  description: "Notes taking app that allows you to make notes, edit the thext and save them in a database storage.",
   openGraph: {
     title: {
       template: 'Iceterisk | %s',
       default: 'Iceterisk'
     },
     url: 'https://iceterisk.com',
-    description: "Notes taking app that allows you to make notes, edit the thext and save them in a database storage",
+    description: "Notes taking app that allows you to make notes, edit the thext and save them in a database storage.",
     siteName: 'Iceterisk',
     images: [
       {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Iceterisk',
-    description: 'Notes taking app',
+    description: 'Notes taking app that allows you to make notes, edit the thext and save them in a database storage.',
     creator: '@iceterisk',
     images: ['link.jpg'], // Must be an absolute URL
   },
