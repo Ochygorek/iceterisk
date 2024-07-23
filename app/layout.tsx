@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: 'Iceterisk',
     description: 'Notes taking app',
     creator: '@iceterisk',
-    images: ['link.svg'], // Must be an absolute URL
+    images: ['/link.svg'], // Must be an absolute URL
   },
   verification: {
     google: 'google',
